@@ -12,14 +12,18 @@ const App = () => {
                             text="Nice Blog Post!"
                 />
             </ApprovalCard>
-            <CommentDetail author="Alex" 
-                           timeAgo="Today at 2:00AM" 
-                           text="Fat Stu"
-            />
-            <CommentDetail author="Jane" 
-                           timeAgo="Yesterday at 5:00PM" 
-                           text="Cockerspaniel"
-            />
+            <ApprovalCard>
+                <CommentDetail author="Alex" 
+                            timeAgo="Today at 2:00AM" 
+                            text="Fat Stu"
+                />
+            </ApprovalCard>
+            <ApprovalCard>
+                <CommentDetail author="Jane" 
+                            timeAgo="Yesterday at 5:00PM" 
+                            text="Cockerspaniel"
+                />
+            </ApprovalCard>
         </div>
     ); 
 };
