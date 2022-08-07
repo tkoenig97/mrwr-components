@@ -1,7 +1,7 @@
 import React from 'react';
 import { faker } from "@faker-js/faker";
 
-export const CommentDetail = () => {
+const CommentDetail = () => {
     return (
         <div className="comment">
             <a href="/" className="avatar">
@@ -19,3 +19,5 @@ export const CommentDetail = () => {
         </div>
     )
 }
+
+export default CommentDetail
